@@ -10,7 +10,7 @@ import UIKit
 class FlickrClient{
     
     struct Auth {
-        static let apiKey = "9a9ca8bee7a34208797a30e4b3fc2ce9"
+        static let flickrApi = "9a9ca8bee7a34208797a30e4b3fc2ce9"
     }
     
     enum Endpoints {
@@ -19,7 +19,7 @@ class FlickrClient{
         
         var stringValue: String {
             switch self {
-            case .searchPhotos: return "https://api.flickr.com/services/rest/?method=flickr.photos.getRecent&api_key=\(Auth.apiKey)&page=\(Int.random(in: 0..<10))&format=json&nojsoncallback=1"
+            case .searchPhotos: return "https://api.flickr.com/services/rest/?method=flickr.photos.getRecent&api_key=\(Auth.flickrApi)&page=\(Int.random(in: 0..<10))&format=json&nojsoncallback=1"
             case .downloadImage(let photo):
                 return "https://farm\(photo.farm).staticflickr.com/\(photo.server ?? "")/\(photo.flickerId ?? "")_\(photo.secret ?? "").jpg"
             }
