@@ -82,6 +82,10 @@ class FlickrClient{
                 }
                 return
             }
+            DataController.shared.viewContext.perform {
+                photo.data = data
+                try? DataController.shared.viewContext.save()
+            }
             DispatchQueue.main.async {
                 let image = UIImage(data: data)
                 completion(image, nil)
