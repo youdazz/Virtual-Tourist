@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "closure #1 in PhotoAlbumCollectionViewController.collectionView(_:cellForItemAt:):PhotoAlbumCollectionViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "TravelLocationsViewController.prepare(for:sender:):TravelLocationsViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in static FlickrClient.taskForGETRequest&lt;&#x3c4;_0_0&gt;(url:responseType:completion:):FlickrClient.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "String(data: data, encoding: .utf8)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "PhotoAlbumCollectionViewController.viewDidLoad():PhotoAlbumCollectionViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "fetchedResultsController.sections?.first?.numberOfObjects">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ImageSelectorViewController.collectionView(_:didDeselectItemAt:):ImageSelectorViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in NewPinFormViewController.selectImage(image:):NewPinFormViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.mapView.annotations">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "TravelLocationsViewController.controller(_:didChange:at:for:newIndexPath:):TravelLocationsViewController.swift">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
